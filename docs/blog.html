@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>AxelBase – UUID Validation</title>
+        <link rel="icon" href="./AxelLab-Logo.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+        
+        
+		<link href="./_app/immutable/assets/0.D2ZGcTmN.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/4.Im83nUkK.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.Wy5TTp8C.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/aFtJvEik.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/yHAUIM5i.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/CZbkJV28.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/QVN89Syf.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.-GVtpgYR.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/CSCUUGq4.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/CSjpRwTm.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/B71KCHzs.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/BAGWkU3v.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.Dw_zSs9B.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/CDIPAYt_.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/DdZX7vev.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/_JspuKII.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Dt6rA9Cg.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/DsaSJwPh.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/4.BOo8rRBI.js"><!--12qhfyh--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"/> <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script><!----><!--u4k2t--><meta name="description" content="Technical articles, deep dives, and best practices for using the client-side UUID Validator and Version Detector."/><!----><title>Blog | UUID Validator Insights</title>
+    </head>
+    <body data-bs-theme="light">
+        <div style="display: contents"><!--[--><!--[--><!----><header class="fixed-top glass-nav"><nav class="container py-2 d-flex justify-content-between align-items-center"><div class="d-flex align-items-center gap-3"><a href="./" class="d-flex align-items-center gap-2 logo-group text-decoration-none svelte-12qhfyh"><img src="./AxelLab-Logo.ico" alt="AxelBase Logo" class="navbar-brand-logo svelte-12qhfyh"/> <span class="brand-text d-none d-sm-inline svelte-12qhfyh">AxelBase</span></a></div> <ul class="nav d-none d-lg-flex align-items-center gap-2 m-0"><li><a class="nav-link-custom svelte-12qhfyh" href="./">Home</a></li> <li><a class="nav-link-custom svelte-12qhfyh" href="./#about">About</a></li> <li><a class="nav-link-custom svelte-12qhfyh" href="./#how-to">How to use</a></li> <li><a class="nav-link-custom svelte-12qhfyh" href="./#faq">FAQ</a></li> <li><a class="nav-link-custom svelte-12qhfyh" href="./blog">Blog</a></li></ul> <div class="d-flex align-items-center gap-3"><button class="theme-toggle-btn svelte-12qhfyh" aria-label="Toggle Dark Mode"><!--[!--><i class="bi bi-moon-stars-fill svelte-12qhfyh" style="color: var(--brand-green-blue);"></i><!--]--></button> <div class="position-relative"><button class="btn btn-coffee d-flex align-items-center gap-2 svelte-12qhfyh"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="coffee-icon svelte-12qhfyh"><path d="M12.35,22.2L12,22A10,10,0,0,1,2,12V10A2,2,0,0,1,4,8H7.2A5.13,5.13,0,0,1,12,3A5.13,5.13,0,0,1,16.8,8H20A2,2,0,0,1,22,10V12A10,10,0,0,1,12.35,22.2M4,10V12A8,8,0,0,0,12,20A8,8,0,0,0,20,12V10H16.8A5.11,5.11,0,0,1,12.5,5.12A5.15,5.15,0,0,1,7.2,10H4Z"></path></svg> <span class="d-none d-md-inline">Buy me a coffee</span></button> <!--[!--><!--]--></div> <button class="d-lg-none btn border-0 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav" aria-label="Toggle mobile menu"><i class="bi bi-list fs-1" style="color: var(--color-text-main);"></i></button></div></nav> <div class="collapse d-lg-none glass-nav border-top" id="mobileNav"><div class="container py-3 d-flex flex-column gap-3 text-center"><a class="nav-link-custom svelte-12qhfyh" href="./">Home</a> <a class="nav-link-custom svelte-12qhfyh" href="./#about">About</a> <a class="nav-link-custom svelte-12qhfyh" href="./#how-to">How to use</a> <a class="nav-link-custom svelte-12qhfyh" href="./#faq">FAQ</a> <a class="nav-link-custom svelte-12qhfyh" href="./blog">Blog</a></div></div></header> <main class="container mb-5" style="margin-top: 100px;"><!--[--><!----><div class="container blog-index py-5 svelte-u4k2t"><header class="blog-header text-center mb-5 svelte-u4k2t"><h1 class="svelte-u4k2t">UUID Validator Blog</h1> <p class="subtitle lead col-lg-8 mx-auto svelte-u4k2t">In-depth articles on UUID standards, validation techniques, performance, and real-world applications of this fully client-side tool.</p></header> <div class="posts-grid svelte-u4k2t"><!--[--><a href="./blog/posts/post1" class="card post-card h-100 text-decoration-none glass-card svelte-u4k2t"><div class="card-body d-flex flex-column p-4"><h2 class="post-title h5 fw-bold mb-3 svelte-u4k2t">Understanding UUID Versions 1 through 5</h2> <p class="post-description flex-grow-1 small svelte-u4k2t">Deep dive into the five official UUID versions, their structure, use cases, and how this tool accurately detects each one.</p> <span class="read-more fw-bold mt-3 svelte-u4k2t">Read Article →</span></div></a><a href="./blog/posts/post2" class="card post-card h-100 text-decoration-none glass-card svelte-u4k2t"><div class="card-body d-flex flex-column p-4"><h2 class="post-title h5 fw-bold mb-3 svelte-u4k2t">How UUID Variant Detection Works (RFC 4122)</h2> <p class="post-description flex-grow-1 small svelte-u4k2t">Technical breakdown of the UUID variant field and why only 89ab are valid — and how the validator enforces this correctly.</p> <span class="read-more fw-bold mt-3 svelte-u4k2t">Read Article →</span></div></a><a href="./blog/posts/post3" class="card post-card h-100 text-decoration-none glass-card svelte-u4k2t"><div class="card-body d-flex flex-column p-4"><h2 class="post-title h5 fw-bold mb-3 svelte-u4k2t">Batch Validation: Extracting UUIDs from Logs &amp; Files</h2> <p class="post-description flex-grow-1 small svelte-u4k2t">Learn how the tool scans any text — logs, JSON, CSV, config files — and reliably extracts only valid UUIDs, ignoring layout.</p> <span class="read-more fw-bold mt-3 svelte-u4k2t">Read Article →</span></div></a><a href="./blog/posts/post4" class="card post-card h-100 text-decoration-none glass-card svelte-u4k2t"><div class="card-body d-flex flex-column p-4"><h2 class="post-title h5 fw-bold mb-3 svelte-u4k2t">Why Most Online UUID Validators Fail (And This One Doesn’t)</h2> <p class="post-description flex-grow-1 small svelte-u4k2t">Common pitfalls in regex-based UUID validation and how this utility uses strict RFC 4122 compliance for zero false positives.</p> <span class="read-more fw-bold mt-3 svelte-u4k2t">Read Article →</span></div></a><a href="./blog/posts/post5" class="card post-card h-100 text-decoration-none glass-card svelte-u4k2t"><div class="card-body d-flex flex-column p-4"><h2 class="post-title h5 fw-bold mb-3 svelte-u4k2t">Exporting Validation Results: TXT vs CSV vs JSON</h2> <p class="post-description flex-grow-1 small svelte-u4k2t">Best practices for exporting batch results — when to use each format and how the tool preserves order and metadata.</p> <span class="read-more fw-bold mt-3 svelte-u4k2t">Read Article →</span></div></a><a href="./blog/posts/post6" class="card post-card h-100 text-decoration-none glass-card svelte-u4k2t"><div class="card-body d-flex flex-column p-4"><h2 class="post-title h5 fw-bold mb-3 svelte-u4k2t">Handling 10,000+ UUIDs in the Browser (Performance Tips)</h2> <p class="post-description flex-grow-1 small svelte-u4k2t">How client-side regex scanning and deduplication work efficiently even with massive inputs — all without a backend.</p> <span class="read-more fw-bold mt-3 svelte-u4k2t">Read Article →</span></div></a><a href="./blog/posts/post7" class="card post-card h-100 text-decoration-none glass-card svelte-u4k2t"><div class="card-body d-flex flex-column p-4"><h2 class="post-title h5 fw-bold mb-3 svelte-u4k2t">Real-World Use Cases: Debugging, Auditing &amp; Migration</h2> <p class="post-description flex-grow-1 small svelte-u4k2t">How developers use this tool daily to audit databases, debug distributed systems, and validate data migrations.</p> <span class="read-more fw-bold mt-3 svelte-u4k2t">Read Article →</span></div></a><!--]--></div></div><!----><!--]--></main> <footer class="glass-nav py-4 mt-auto"><div class="container d-flex flex-column flex-md-row justify-content-between align-items-center small"><span style="color: var(--color-text-muted);">© 2025 AxelBase UUID Validation</span> <div class="d-flex gap-3 mt-2 mt-md-0"><a href="./privacy">Privacy Policy</a> <a href="./terms">Terms of Service</a></div></div></footer><!----><!--]--> <!--[!--><!--]--><!--]-->
+			
+			<script>
+				{
+					__sveltekit_1mvi434 = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						assets: "/uuid-validator-detector"
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("./_app/immutable/entry/start.Wy5TTp8C.js"),
+						import("./_app/immutable/entry/app.-GVtpgYR.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 4],
+							data: [null,null],
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+    </body>
+</html>

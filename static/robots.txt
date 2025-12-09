@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://axelbase.github.io/uuid-validator-detector/sitemap.xml
