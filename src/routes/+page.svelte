@@ -309,7 +309,7 @@
 </section>
 
 <!-- ==================== HOW TO USE ==================== -->
-<section id="how-to" class="container py-5 my-5 bg-light rounded-4">
+<section id="how-to" class="glass-card p-5 p-md-6 rounded-4 shadow-lg border-0">
   <h2 class="display-5 fw-bold text-center mb-5" style="color: var(--color-accent);">How to Use</h2>
   <div class="row g-5 justify-content-center">
     <div class="col-lg-8">
