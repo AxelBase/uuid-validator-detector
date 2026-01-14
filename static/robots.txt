@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://axelbase.github.io/uuid-validator-detector/sitemap.xml
+Sitemap: https://uuid-validator-detector.vercel.app/sitemap.xml
